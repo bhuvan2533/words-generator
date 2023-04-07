@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.input {
+  text-align: center;
+  font-family: monospace;
+  margin-top: 70px;
+}
+
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+}
+
+.inp {
+  padding: 6px;
+  width: 20%;
+}
+.btn {
+  padding: 6px;
+}
+
+@media (max-width: 800px) {
+  body {
+    margin: 20px;
+    font-family: sans-serif;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  p {
+    width: 100px !important;
+    font-size: 0.8rem;
+    font-family: monospace;
+  }
+  .ThreeLetterWord,
+  .FourLetterWord,
+  .FiveLetterWord,
+  .SixLetterWord {
+    margin-top: 30px;
+  }
+  .inp {
+    padding: 2px;
+    width: 70%;
+    margin-bottom: 50px;
+  }
+  .btn {
+    padding: 2px;
+  }
+}
